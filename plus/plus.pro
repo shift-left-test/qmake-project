@@ -1,3 +1,4 @@
+QT -= gui
 TEMPLATE = lib
 TARGET = plus-qt
 

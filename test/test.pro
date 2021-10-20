@@ -1,3 +1,4 @@
+QT -= gui
 TEMPLATE = app
 TARGET = test-qt-gtest
 INCLUDEPATH += . \

@@ -1,3 +1,4 @@
+QT -= gui
 TEMPLATE = app
 TARGET = program-qt
 INCLUDEPATH += . \

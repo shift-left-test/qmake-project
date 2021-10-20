@@ -1,3 +1,4 @@
+QT -= gui
 TEMPLATE = app
 TARGET = plus_test-qt
 INCLUDEPATH += . \
