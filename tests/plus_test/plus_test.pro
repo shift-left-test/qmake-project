@@ -13,6 +13,6 @@ SOURCES += PlusTest.cpp testmain.cpp
 LIBS += -L"$$OUT_PWD/../../plus"
 LIBS += -lplus-qt
 
-QMAKE_RPATHDIR += -Wl,-rpath="../../plus"
+QMAKE_RPATHDIR += $$OUT_PWD/../../plus
 
 CONFIG += testcase
