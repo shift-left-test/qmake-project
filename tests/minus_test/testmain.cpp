@@ -23,6 +23,6 @@
 */
 
 #include <QTest>
-#include "MinusTest.hpp"
+#include "minus_test/MinusTest.hpp"
 
 QTEST_MAIN(MinusTest)

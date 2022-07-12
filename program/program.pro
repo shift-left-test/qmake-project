@@ -2,8 +2,7 @@ QT -= gui
 TEMPLATE = app
 TARGET = program-qt
 INCLUDEPATH += . \
-    ../plus/include \
-    ../minus/include
+    ..
 
 DEFINES += QT_DEPRECATED_WARNINGS
 

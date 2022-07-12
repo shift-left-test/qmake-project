@@ -1,11 +1,11 @@
 QT -= gui
 TEMPLATE = lib
 TARGET = minus-qt
-INCLUDEPATH += include
+INCLUDEPATH += $$PWD/..
 
 DEFINES += QT_DEPRECATED_WARNINGS
 
-HEADERS += include/minus.hpp
-SOURCES += src/minus.cpp
+HEADERS += minus.hpp
+SOURCES += minus.cpp
 
 CONFIG += staticlib

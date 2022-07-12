@@ -22,12 +22,12 @@
   SOFTWARE.
 */
 
-#include "minus.hpp"
+#include "plus/plus.hpp"
 
 namespace arithmetic {
 
-int minus(int x, int y) {
-  return x - y;
+int plus(int a, int b) {
+  return a + b;
 }
 
 }  // namespace arithmetic

@@ -23,8 +23,8 @@
 */
 
 #include <iostream>
-#include "plus.hpp"
-#include "minus.hpp"
+#include "plus/plus.hpp"
+#include "minus/minus.hpp"
 
 int main(int argc, char *argv[]) {
   int result = arithmetic::plus(1, 2) + arithmetic::minus(1, 2);

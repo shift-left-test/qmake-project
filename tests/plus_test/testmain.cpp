@@ -23,6 +23,6 @@
 */
 
 #include <QTest>
-#include "PlusTest.hpp"
+#include "plus_test/PlusTest.hpp"
 
 QTEST_MAIN(PlusTest)

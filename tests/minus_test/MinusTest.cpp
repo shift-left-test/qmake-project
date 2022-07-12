@@ -22,8 +22,8 @@
   THE SOFTWARE.
 */
 
-#include "MinusTest.hpp"
-#include "minus.hpp"
+#include "minus_test/MinusTest.hpp"
+#include "minus/minus.hpp"
 
 void MinusTest::testShouldReturnExpectedValue() {
   QVERIFY(-1 == arithmetic::minus(1, 2));

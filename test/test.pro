@@ -1,9 +1,7 @@
 QT -= gui
 TEMPLATE = app
 TARGET = test-qt-gtest
-INCLUDEPATH += . \
-    ../minus/include \
-    ../plus/include
+INCLUDEPATH += $$PWD/..
 
 DEFINES += QT_DEPRECATED_WARNINGS
 

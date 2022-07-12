@@ -22,8 +22,8 @@
   THE SOFTWARE.
 */
 
-#include "PlusTest.hpp"
-#include "plus.hpp"
+#include "plus_test/PlusTest.hpp"
+#include "plus/plus.hpp"
 
 void PlusTest::testShouldReturnExpectedValue() {
   QVERIFY(3 == arithmetic::plus(1, 2));

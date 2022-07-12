@@ -2,12 +2,12 @@ QT -= gui
 TEMPLATE = lib
 TARGET = plus-qt
 
-INCLUDEPATH += include
+INCLUDEPATH += $$PWD/..
 
 DEFINES += QT_DEPRECATED_WARNINGS
 
-HEADERS += include/plus.hpp
-SOURCES += src/plus.cpp
+HEADERS += plus.hpp
+SOURCES += plus.cpp
 
 target.path = /usr/lib
 INSTALLS += target

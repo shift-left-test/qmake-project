@@ -1,8 +1,9 @@
 QT -= gui
 TEMPLATE = app
 TARGET = plus_test-qt
-INCLUDEPATH += . \
-    ../../plus/include
+INCLUDEPATH += $$PWD/.. \
+    $$PWD/../..
+
 QT += testlib
 
 DEFINES += QT_DEPRECATED_WARNINGS
